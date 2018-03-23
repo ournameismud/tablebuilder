@@ -1,7 +1,5 @@
 # Täble Builder plugin
 
-Simple, client-sided table builder fieldtype for Craft 3
-
 ![Logo](resources/img/plugin-logo.png)
 
 ## Requirements
@@ -24,7 +22,7 @@ To install the plugin, follow these instructions.
 
 ## Table Builder Overview
 
-This is a simple clioent-sided table builder fieldtype for Craft 3.
+Simple, client-sided table builder fieldtype for Craft 3
 
 ![Screenshot](resources/img/screenshot.png)
 
