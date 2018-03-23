@@ -1,12 +1,12 @@
-# Table Builder plugin for Craft CMS 3.x
+# Täble Builder plugin
 
-Simple table builder field
+Simple, client-sided table builder fieldtype for Craft 3
 
-![Screenshot](resources/img/plugin-logo.png)
+![Logo](resources/img/plugin-logo.png)
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3 or later.
 
 ## Installation
 
@@ -24,21 +24,22 @@ To install the plugin, follow these instructions.
 
 ## Table Builder Overview
 
--Insert text here-
+This is a simple clioent-sided table builder fieldtype for Craft 3.
+
+![Screenshot](resources/img/screenshot.png)
 
 ## Configuring Table Builder
 
--Insert text here-
+TBC
 
 ## Using Table Builder
 
--Insert text here-
+Plugin variables forthcoming
 
 ## Table Builder Roadmap
 
-Some things to do, and ideas for potential features:
+* Clone Row option
+* Clone Column option
 
-* Release it
-
-Brought to you by [@cole007](http://ournameismud.co.uk/)
+Plugin brought to you by [@cole007](http://ournameismud.co.uk/)  
 Icon by [Michael Shlain](https://thenounproject.com/search/?q=table&i=203237)
