@@ -24,7 +24,7 @@ To install the plugin, follow these instructions.
 
 Simple, client-sided table builder fieldtype for Craft 3
 
-![Screenshot](resources/img/screenshot.png)
+![Screenshot](resources/img/screenshot.gif)
 
 ## Configuring Table Builder
 
