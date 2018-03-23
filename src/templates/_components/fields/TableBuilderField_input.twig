@@ -1,0 +1,109 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Table Builder plugin for Craft CMS 3.x
+ *
+ * TableBuilderField Field Input
+ *
+ * @author    @cole007
+ * @copyright Copyright (c) 2018 @cole007
+ * @link      http://ournameismud.co.uk/
+ * @package   TableBuilder
+ * @since     0.0.1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+<div class="table-wrapper" data-field="{{ name }}">
+  {# <script>
+    var fieldName = '{{ name }}';
+  </script> #}
+
+<table>
+
+  <thead>
+    <tr class="repeater heading">
+      <th>Heading</th>
+      {% if value.heading is defined %}
+      {% for item in value.heading %}
+      <th><input type="text" required placeholder="Table Heading" value="{{ item }}"></th>
+      {% endfor %}      
+      {% else %}
+      <th><input type="text" required placeholder="Table Heading" value=""></th>
+      {% endif %}
+      <th nowrap><button type="button" title="Add Column" data-attr="addCol">+</button></th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr> 
+      <td></td>
+      {% if value.heading is defined %}
+      {% for item in value.heading %}
+      <td><button type="button" title="Delete Column" data-attr="deleteCol">x</button></td>
+      {% endfor %}
+      {% else %}
+      <td><button type="button" title="Delete Column" data-attr="deleteCol">x</button></td>
+      {% endif %}
+      <td></td>
+    </tr>
+  </tfoot>
+  <tbody>
+    
+    {% if value.row is defined %}
+
+      {% for row in value.row %}
+
+        {% if row.subheading is defined %}
+        
+        <tr>
+            <th>Subheading</th>
+            <td colspan="{{ value.heading|length }}">
+              <input class="heading" required placeholder="Table Subheading" type="text" value="{{ row.subheading }}" />
+            </td>
+            <td nowrap>
+              <button type="button" title="Insert Subheading Above" data-attr="addHeading">+</button>
+              <button type="button" title="Insert Row Below" data-attr="addRow">+</button>
+              <button type="button" title="Delete This Row" data-attr="deleteRow">x</button>
+              <button type="button" title="Move This Row" data-attr="dragRow" class="draggable">|</button>
+            </td>
+          </tr>
+        </tr>
+
+        {% else %}
+
+        <tr class="repeater">
+          <th><input type="text" required placeholder="Row Heading" title="Caption" value="{{ row[0] }}" /></th>
+          {% for i in 1..(row|length - 1) %}
+          <td><input type="text" placeholder="Row Content" title="Data" value="{{ row[i] }}" /></td>
+          {% endfor %}
+          <td nowrap>
+            <button type="button" title="Insert Subheading Above" data-attr="addHeading">+</button>
+            <button type="button" title="Insert Row Below" data-attr="addRow">+</button>
+            <button type="button" title="Delete This Row" data-attr="deleteRow">x</button>
+            <button type="button" title="Move This Row" data-attr="dragRow" class="draggable">|</button>
+          </td>
+        </tr>
+
+        {% endif %}
+
+      {% endfor %}
+
+      {% else %}
+
+        <tr class="repeater">
+          <th><input type="text" required placeholder="Row Heading" title="Caption" value="" /></th>
+          <td><input type="text" placeholder="Row Content" title="Data" value="" /></td>
+          <td nowrap>
+            <button type="button" title="Insert Subheading Above" data-attr="addHeading">+</button>
+            <button type="button" title="Insert Row Below" data-attr="addRow">+</button>
+            <button type="button" title="Delete This Row" data-attr="deleteRow">x</button>
+            <button type="button" title="Move This Row" data-attr="dragRow" class="draggable">|</button>
+          </td>
+        </tr>
+
+      {% endif %}
+
+  </tbody>
+</table>
+</div>

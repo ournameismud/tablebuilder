@@ -1,0 +1,43 @@
+{
+    "name": "ournameismud/tablebuilder",
+    "description": "Simple table builder field",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "table builder"
+    ],
+    "support": {
+        "docs": "https://github.com/ournameismud/tablebuilder/blob/master/README.md",
+        "issues": "https://github.com/ournameismud/tablebuilder/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "@cole007",
+            "homepage": "http://ournameismud.co.uk/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "ournameismud\\tablebuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Table Builder",
+        "handle": "tablebuilder",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/ournameismud/tablebuilder/master/CHANGELOG.md",
+        "components": {
+            "tableBuilderService": "ournameismud\\tablebuilder\\services\\TableBuilderService"
+        },
+        "class": "ournameismud\\tablebuilder\\TableBuilder"
+    }
+}

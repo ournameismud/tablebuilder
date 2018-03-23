@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg3493"
+   viewBox="0 0 277.05665 104.99959"
+   height="29.633219mm"
+   width="78.191544mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="addheading.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1089"
+     inkscape:window-height="678"
+     id="namedview3768"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.8321885"
+     inkscape:cx="115.99062"
+     inkscape:cy="112.7052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3493" />
+  <defs
+     id="defs3495" />
+  <metadata
+     id="metadata3498">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 0 0 L 0 17.232422 L 0 26.902344 L 0 65.951172 L 180 65.951172 L 180 26.902344 L 180 17.232422 L 180 0 L 0 0 z M 30.800781 18.394531 L 39.765625 18.394531 L 50.566406 47.554688 L 43.007812 47.554688 L 41.171875 42.242188 L 29.414062 42.242188 L 27.558594 47.554688 L 20 47.554688 L 30.800781 18.394531 z M 237.05664 22.5 L 237.05664 42.5 L 217.05664 42.5 L 217.05664 62.5 L 237.05664 62.5 L 237.05664 82.5 L 257.05664 82.5 L 257.05664 62.5 L 277.05664 62.5 L 277.05664 42.5 L 257.05664 42.5 L 257.05664 22.5 L 237.05664 22.5 z M 35.292969 25.230469 L 31.289062 36.832031 L 39.277344 36.832031 L 35.292969 25.230469 z "
+     transform="translate(0,-3.8146973e-6)"
+     id="path3527" />
+  <rect
+     y="78.097176"
+     x="0.00077279954"
+     height="26.902418"
+     width="180"
+     id="rect3535"
+     style="opacity:1;fill:#999999;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+</svg>
