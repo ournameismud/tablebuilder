@@ -1,4 +1,4 @@
-# Täble Builder plugin
+# Table Builder plugin
 
 ![Logo](resources/img/plugin-logo.png)
 
@@ -38,6 +38,7 @@ Plugin variables forthcoming
 
 * Clone Row option
 * Clone Column option
+* Configuration on per-field basis (Field Settings)
 
 Plugin brought to you by [@cole007](http://ournameismud.co.uk/)  
 Icon by [Michael Shlain](https://thenounproject.com/search/?q=table&i=203237)
